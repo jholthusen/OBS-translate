@@ -127,15 +127,15 @@
 
             // Settings for voice recognition ----------------------
             var recognition = new webkitSpeechRecognition();
-            recognition.lang = 'en';
+            recognition.lang = 'de';
             recognition.interimResults = true;
             recognition.continuous = true;
             var recog_text = '';
             var trans_text = '';
 
             // Translation settings ---------------------------
-            var trans_sourcelang = 'en';
-            var trans_destlang = 'pt-BR';
+            var trans_sourcelang = 'de';
+            var trans_destlang = 'en';
 
             var gs_key = getParam('gs_key');
 
